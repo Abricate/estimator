@@ -1,0 +1,27 @@
+{
+  "name": "estimator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "dxf": "^2.4.2",
+    "dxf-parser": "^0.4.6",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-dropzone": "^3.13.2",
+    "three": "^0.85.2",
+    "three-dxf": "^0.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "console": "babel-node"
+  }
+}

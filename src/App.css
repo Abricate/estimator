@@ -1,0 +1,39 @@
+.App {
+}
+
+#cad-view {
+  width: 500px;
+  height: 500px;
+}
+
+.file-dropzone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-dropzone-active {
+  background-color: rgba(30, 30, 30, 0.4);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.container > * {
+  flex: 1;
+}
+
+/*
+#svg-view {
+  width: 99vw;
+  height: 99vh;
+}
+*/
